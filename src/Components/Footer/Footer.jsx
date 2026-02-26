@@ -1,4 +1,4 @@
-import { RiGithubFill, RiLinkedinBoxFill, RiLinkedinBoxLine, RiLinkedinLine, RiMailAddFill, RiMailAiFill, RiMailCloseFill, RiMailFill } from '@remixicon/react'
+import { RiGithubFill, RiLinkedinBoxFill, RiLinkedinBoxLine, RiLinkedinLine, RiMailAddFill, RiMailAiFill, RiMailCloseFill, RiMailFill, RiWhatsappFill } from '@remixicon/react'
 import { Github, GithubIcon, Linkedin, LinkedinIcon, LucideLinkedin, MailIcon } from 'lucide-react'
 import React from 'react'
 
@@ -22,6 +22,10 @@ const Footer = () => {
             <li className='flex gap-4 cursor-pointer'>
                 <RiGithubFill className='h-5 md:h-7 lg:h-9 w-5 md:w-7 lg:w-9'/>
                 https://github.com/shovasapkota101
+            </li>
+            <li className='flex gap-4 cursor-pointer'>
+                <RiWhatsappFill className='h-5 md:h-7 lg:h-9 w-5 md:w-7 lg:w-9'/>
+                9847856343
             </li>
         </ul>
     </div>
