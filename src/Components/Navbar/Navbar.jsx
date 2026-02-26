@@ -26,7 +26,7 @@ const Navbar = () => {
           </li>
        </a>
 
-        <a href="#contact">
+        <a href="#Footer">
            <li className='text-sm md:text-lg lg:text-lg hover:bg-(--background-blue) px-4 rounded-xl md:border-none lg:border-none transition-all duration-300'>
              Contact
            </li>

@@ -11,5 +11,9 @@
     --secondary-color: gray;
     --background-color: black;
     --background-blue: rgba(0, 157, 255, 0.929);
-    --background-blue: rgb(7, 7, 43);
+    --background-whole: rgb(7, 7, 43);
+}
+
+* {
+    scroll-behavior: smooth;
 }

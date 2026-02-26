@@ -5,12 +5,13 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Navbar from './Components/Navbar/Navbar'
 import Hero from './Components/Hero/Hero'
 import About from './Components/About/About'
+import Footer from './Components/Footer/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className=' bg-(--background-blue) h-auto w-auto overflow-hidden'>
+    <div className=' bg-(--background-whole) h-auto w-auto overflow-hidden'>
     
       <BrowserRouter>
         <Routes>
@@ -19,6 +20,7 @@ function App() {
             <Navbar />
             <Hero/>
             <About/>
+            <Footer/>
             </>
           }/>
         </Routes>
