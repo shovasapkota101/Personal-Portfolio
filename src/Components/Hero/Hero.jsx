@@ -11,7 +11,7 @@ const Hero = () => {
 
       <div className='w-full md:pt-10 lg:text-left'>
       <h1 className='text-2xl md:text-3xl lg:text-5xl font-bold leading-normal tracking-tighter'><TextChange/></h1>
-      <p className='text-sm md:text-xl lg:text-2xl tracking-tight mt-2 md:mt-3 lg:mt-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nostrum, harum, dignissimos quas.</p>
+      <p className='text-sm md:text-xl lg:text-2xl tracking-tight mt-2 md:mt-3 lg:mt-4'>I’m a Frontend developer passionate about turning ideas into interactive, user-friendly, responsive websites with React and Tailwind CSS. I love exploring new technologies, writing clean code, and creating digital experiences that make an impact.</p>
       <a href="#Footer">
         <button className='mt-5 md:mt-7 lg:mt-10 py-2 px-2 md:px-3 lg:px-4 text-sm md:text-lg lg:text-xl hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]'>Contact Me</button>
       </a>

@@ -9,7 +9,7 @@
 :root {
     --primary-color: white;
     --secondary-color: gray;
-    --background-color: black;
+    --background-color: rgb(27, 31, 67);
     --background-blue: rgba(0, 157, 255, 0.929);
     --background-whole: rgb(7, 7, 43);
 }
